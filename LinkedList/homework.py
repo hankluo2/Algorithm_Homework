@@ -50,3 +50,6 @@ if __name__ == '__main__':
     for i in iter:
         print(i, end=' ')
     print()
+    
+    lb = NodeClass.LinkedBag(dataList)
+    print(type(lb), type(head))
